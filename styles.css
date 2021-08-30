@@ -34,8 +34,7 @@ section span.logo {
     left: 30%;
     margin-left: -50px;
     border-radius: 0 0 45px 45px;
-    box-shadow: -2px 0 3px 1px #ebddc3, 
-        2px 0 5px 1px #a18a64;
+    box-shadow: -2px 0 3px 1px #daa521
 }
 
 
@@ -53,14 +52,14 @@ button {
     margin: 10px auto;
     border-radius: 5px;
     border:none;
-    background: #3a3a3a;
-    box-shadow: -2px 0 2px #ebddc3, 
-    2px 0 3px 1px #a18a64;
+    background: black;
+    box-shadow: 0px 0px 0 2px #daa521,
+        0px 0px 2px 1px #daa521;
 }
 
 button a {
     text-decoration: none;
-    color:#ebddc3;
+    color:#daa521;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
 }
@@ -74,11 +73,11 @@ div .foto {
     width: 100px;
     z-index: 3;
     border-radius: 10px;
-    box-shadow: -1px 0 2px  #ebddc3, 
-        1px 0 3px 1px #a18a64;
+    box-shadow: 0px 0px 0 2px #daa521,
+    0px 0px 2px 1px #daa521;
 }
 
 div.info div {
-    margin-left: 10px;
-    color: #ebddc3;
+    margin-left: 15px;
+    color: #daa521;
 }
