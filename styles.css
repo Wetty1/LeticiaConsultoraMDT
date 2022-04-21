@@ -9,40 +9,32 @@ body {
     height: 100%;
     position: relative;
     font-family: 'Montserrat', sans-serif;
+    margin: auto 5px
 }
 
-section {
-    height: 1px;
-    width: 100%;
+body div {
+    display: flex;
+    justify-content: center;
 }
 
-section img.logo {
-    width: 90px;
-    position: absolute;
-    top: -5px;
-    left: 30%;
-    margin-left: -50px;
+div.info {
+    margin: 30px 0 15px;
+}
+
+.foto {
+    width: 100px;
     z-index: 3;
 }
 
-section span.logo {
-    width: 90px;
-    height: 120px;
-    background-color: #fff;
-    position: absolute;
-    top: -5px;
-    left: 30%;
-    margin-left: -50px;
-    border-radius: 0 0 45px 45px;
-    box-shadow: -2px 0 3px 1px #daa521
+h2 {
+    color: #daa521;
 }
-
 
 div.links {
     display: flex;
     flex-direction: column;
     margin: 140px auto 40px;
-    
+
 }
 
 button {
@@ -51,7 +43,7 @@ button {
     padding: 5px 10px;
     margin: 10px auto;
     border-radius: 5px;
-    border:none;
+    border: none;
     background: black;
     box-shadow: 0px 0px 0 2px #daa521,
         0px 0px 2px 1px #daa521;
@@ -59,25 +51,7 @@ button {
 
 button a {
     text-decoration: none;
-    color:#daa521;
+    color: #daa521;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
-}
-
-div.info {
-    display: flex;
-    justify-content: center;
-}
-
-div .foto {
-    width: 100px;
-    z-index: 3;
-    border-radius: 10px;
-    box-shadow: 0px 0px 0 2px #daa521,
-    0px 0px 2px 1px #daa521;
-}
-
-div.info div {
-    margin-left: 15px;
-    color: #daa521;
 }
